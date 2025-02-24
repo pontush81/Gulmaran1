@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Anpassa utseendet för rubriker i editorn */
+.prose h1 {
+  @apply text-3xl font-bold mb-4;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold mb-3;
+}
+
+.prose h3 {
+  @apply text-xl font-bold mb-2;
+}
+
+/* Anpassa listors utseende */
+.prose ul {
+  @apply list-disc pl-5 mb-4;
+}
+
+.prose ol {
+  @apply list-decimal pl-5 mb-4;
+}
+
+/* Anpassa länkars utseende */
+.prose a {
+  @apply text-blue-600 dark:text-blue-400 hover:underline;
+}
+
+/* Textjustering */
+.prose .text-left {
+  text-align: left;
+}
+
+.prose .text-center {
+  text-align: center;
+}
+
+.prose .text-right {
+  text-align: right;
+}
